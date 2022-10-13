@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    background: radial-gradient(green, pink);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.logo img{
+max-width: 90px;
+}
+
+.navbar nav{
+margin-left: 800px;
+}
+
+.dropbtn{
+    padding-top: 50px;
+    border: none;
+    background: none;
+}
+
+.dropdown-content{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 200, 255, 0.75);
+    min-width: 100px;
+    min-height: 140px;
+    padding: 15px;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content ul{
+    list-style: none;
+}
+
+.dropdown-content ul li{
+    padding-bottom: 15px;
+}
+
+.dropdown-content a:hover{
+font-size: 20px;
+color: red;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.st {
+    min-height: 250px;
+    background: linear-gradient(90deg, blue, red);
+    text-align: center;
+    padding: 150px;
+}
+
+.st p{
+    font-size: 50px;
+    color: green;
+    max-width: 800px;
+}
+
+.nd{
+    min-height: 550px;
+    display: flex;
+    background: linear-gradient(45deg, green, gold);
+    padding: 25px;
+}
+
+.nd p{
+    font-size: 30px;
+    margin-right: 175px;
+}
+
+.ph ul{
+    list-style: none;
+    
+}
