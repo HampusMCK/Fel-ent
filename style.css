@@ -145,3 +145,15 @@ li a{
         max-width: 160px;
     }
 }
+
+@media (max-width: 500px){
+    .nav-branding{
+            font-size: 20px;
+    }
+    .st{
+        padding: 150px 15px;
+    }
+   .st p{
+       font-size: 30px;
+   }
+}
