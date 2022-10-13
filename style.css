@@ -129,4 +129,19 @@ li a{
     .nav-menu.active{
         left: 0;
     }
+
+    .nd {
+        width: 100%;
+            padding-top: 200px
+    }
+
+    .nd p{
+        font-size: 15px;
+        margin: 10% auto;
+        
+    }
+
+    .ph img{
+        max-width: 160px;
+    }
 }
