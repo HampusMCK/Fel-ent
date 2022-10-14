@@ -208,6 +208,7 @@ padding: 0 40px;
     }
    .st p{
        font-size: 30px;
+       margin: 0;
    }
    .st .row{
     max-width: 500px;
