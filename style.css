@@ -67,13 +67,46 @@ li a{
     min-height: 550px;
     background: linear-gradient(90deg, blue, red);
     text-align: center;
-    padding: 150px;
+    padding: 20px;
 }
 
 .st p{
     font-size: 50px;
     color: green;
     max-width: 800px;
+    margin: 200px;
+}
+
+.st .row{
+    display: flex;
+    padding: 5px 75px;
+    background: #262626;
+    
+}
+
+.st .row .column{
+    padding: 0 15px;
+    color: white;
+}
+
+.st .row img{
+    margin: 10px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.st .row img:hover{
+    width: 205px;
+}
+
+.st .row .txt{
+    display: flex;
+    padding: 0 170px;
+    font-size: 10px;
+}
+
+.st .row .txt h1{
+padding: 0 40px;
 }
 
 .nd{
@@ -93,7 +126,12 @@ li a{
     
 }
 
-@media(max-width: 768px){
+.footer{
+    background: gray;
+ 
+}
+
+@media(max-width: 800px){
     .hamburger{
         display: block;
     }
@@ -130,6 +168,20 @@ li a{
         left: 0;
     }
 
+    .st .row{
+        max-width: 800px;
+        padding: 0;
+    }
+
+    .st .row .column img{
+        width: 120px;
+        margin: 10px 0;
+    }
+
+    .st .row .column{
+        font-size: 12px;
+    }
+
     .nd {
         width: 100%;
             padding-top: 200px
@@ -152,8 +204,29 @@ li a{
     }
     .st{
         padding: 150px 15px;
+        
     }
    .st p{
        font-size: 30px;
+   }
+   .st .row{
+    max-width: 500px;
+    padding: 0;
+    margin: 0;
+   }
+.st .row .column{
+    font-size: 8px;
+    padding: 0;
+}
+
+   .st .row .column img{
+    width: 70px;
+    margin: 0;
+    padding: 5px;
+   }
+   .footer{
+    min-height: 300px;
+    text-align: center;
+    padding: 140px;
    }
 }
