@@ -4,97 +4,23 @@
     box-sizing: border-box;
 }
 
-.column1 .inf{
-    display: none;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    color: black;
-    position: fixed;
+body {
+    background-color: black;
 }
 
-.column1 .inf ul li{
-    padding: 5px 0;
+.containerI{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-
-.column1 .inf a{
-    color: black;
-    text-decoration: underline;
-}
-
-.column1.active .inf{
- display: block;
-}
-
-
-.column2 .inf{
-    display: none;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    color: black;
-    position: fixed;
-}
-
-.column2 .inf ul li{
-    padding: 5px 0;
-}
-
-.column2 .inf a{
-    color: black;
-    text-decoration: underline;
-}
-
-.column2.active .inf{
- display: block;
-}
-
-.column3 .inf{
-    display: none;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    color: black;
-    position: fixed;
-}
-
-.column3 .inf ul li{
-    padding: 5px 0;
-}
-
-.column3 .inf a{
-    color: black;
-    text-decoration: underline;
-}
-
-.column3.active .inf{
- display: block;
-}
-
-.column4 .inf{
-    display: none;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    color: black;
-    position: fixed;
-}
-
-.column4 .inf ul li{
-    padding: 5px 0;
-}
-
-.column4 .inf a{
-    color: black;
-    text-decoration: underline;
-}
-
-.column4.active .inf{
- display: block;
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 header{
@@ -158,7 +84,7 @@ li a{
 
 .st {
     min-height: 550px;
-    background: linear-gradient(90deg, blue, red);
+    background-color: rgb(211, 189, 163);
     text-align: center;
     padding: 20px;
 }
@@ -296,7 +222,7 @@ padding: 0 40px;
     }
 
     .nav-item{
-        margin: 16px 0;
+        margin: 12px 0;
     }
 
     .nav-menu.active{
@@ -317,8 +243,8 @@ padding: 0 40px;
         margin: 10px 0;
     }
 
-    .st .row .column{
-        font-size: 12px;
+    .st .row .column h1{
+        font-size: 14px;
     }
 
     .st p{
