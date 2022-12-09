@@ -46,6 +46,11 @@ li a{
     padding: 0 24px;
 }
 
+.navbar p {
+    color: lightgrey;
+    font-size: 8px;
+}
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
@@ -89,11 +94,22 @@ li a{
     padding: 20px;
 }
 
+.sttj {
+    min-height: 550px;
+    background-color: rgb(211, 189, 163);
+    text-align: center;
+    padding: 20px;
+}
+
+.nospace {
+    margin: 0;
+}
+
 .st p{
-    font-size: 50px;
+    font-size: 30px;
     color: green;
     max-width: 800px;
-    margin: 200px;
+    margin:  160px 200px;
 }
 
 .st .row{
@@ -249,8 +265,12 @@ padding: 0 40px;
 
     .st p{
         font-size: 24px;
-        margin: 0;
+        margin: 150px 0;
         padding: 0;
+    }
+
+    .sttj ol li {
+       margin: 50px 0;
     }
 
     .nd {
